@@ -14,19 +14,19 @@ def calcola_perimetro_figura():
             print("Hai selezionato il Quadrato")
             lato = float(input("Inserisci la lunghezza di un lato del quadrato: "))
             print("Il perimetro del quadrato è:", lato * 4)
-            break
+            
     elif scelta == 2:
             print("Hai selezionato il Cerchio")
             raggio = float(input("Inserisci il raggio del cerchio: "))
             PiGreco = float("3.14")
             print("La circonferenza del Cerchio è:", 2 * (raggio * PiGreco))
-            break        
+                    
     elif scelta == 3:
             print("Hai selezionato il Rettangolo")
             latoLungo = float(input("Inserisci il lato lungo del rettangolo: "))
             latoCorto = float(input("Inserisci il lato corto del rettangolo: "))
             print("Il perimetro del Rettangolo è: ", 2 * (latoLungo + latoCorto))
-            break
+            
     else:
             print("Inserire una scelta valida")
 
