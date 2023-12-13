@@ -1,7 +1,7 @@
 def calcola_perimetro_figura():
 
  while True:
-    print("Programma per calcolare il perimetro ddi alcune figure")
+    print("Programma per calcolare il perimetro di alcune figure")
     print("Scegli la figura:")
     print("1 - Quadrato")
     print("2 - Cerchio")
